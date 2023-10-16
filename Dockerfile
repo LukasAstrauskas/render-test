@@ -1,5 +1,5 @@
 FROM gradle:7.3.1-jdk17-alpine AS build
-COPY ..
+COPY . .
 RUN gradle clean build
 
 FROM openjdk:17.0.1-jdk-slim
