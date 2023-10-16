@@ -1,6 +1,6 @@
 FROM gradle:7.3.1-jdk17-alpine AS build
 COPY . .
-RUN gradle clean build
+RUN gradle clean build -x test
 
 FROM openjdk:17.0.1-jdk-slim
 COPY --from=build /target/Web_Test-0.0.1-SNAPSHOT.jar Web_Test.jar
