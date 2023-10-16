@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dev.luuk.Web_Test.WebTestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-16T14:29:59" hostname="DESKTOP-01NI0FG" time="0.932">
+<testsuite name="dev.luuk.Web_Test.WebTestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-16T16:37:25" hostname="DESKTOP-01NI0FG" time="1.354">
   <properties/>
-  <testcase name="contextLoads()" classname="dev.luuk.Web_Test.WebTestApplicationTests" time="0.932"/>
-  <system-out><![CDATA[17:29:57.084 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dev.luuk.Web_Test.WebTestApplicationTests]: WebTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:29:57.245 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dev.luuk.Web_Test.WebTestApplication for test class dev.luuk.Web_Test.WebTestApplicationTests
+  <testcase name="contextLoads()" classname="dev.luuk.Web_Test.WebTestApplicationTests" time="1.354"/>
+  <system-out><![CDATA[19:37:22.496 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dev.luuk.Web_Test.WebTestApplicationTests]: WebTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:37:22.643 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dev.luuk.Web_Test.WebTestApplication for test class dev.luuk.Web_Test.WebTestApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.1)
 
-2023-10-16T17:29:57.883+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Starting WebTestApplicationTests using Java 17.0.6 with PID 12940 (started by Dell in C:\Users\Dell\Documents\Web_Test)
-2023-10-16T17:29:57.884+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2023-10-16T17:29:59.482+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Started WebTestApplicationTests in 1.974 seconds (process running for 3.592)
+2023-10-16T19:37:23.311+03:00  INFO 19888 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Starting WebTestApplicationTests using Java 17.0.6 with PID 19888 (started by Dell in C:\Users\Dell\Documents\Web_Test)
+2023-10-16T19:37:23.313+03:00  INFO 19888 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T19:37:25.198+03:00  INFO 19888 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Started WebTestApplicationTests in 2.293 seconds (process running for 4.191)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
