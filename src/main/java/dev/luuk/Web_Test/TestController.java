@@ -12,15 +12,7 @@ public class TestController {
 
     @GetMapping
     public String test() {
-        String date = LocalDate.now().toString();
-        String time = LocalTime.now().toString();
-        String paragraph = """
-                Time now:\s
-                Date: %s,\s
-                TIME: %s.
-                """.formatted(date, time);
-        System.out.println(paragraph);
-        return paragraph;
+        return "Hello, Render.";
     }
 
 }
