@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.luuk.Web_Test.WebTestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-16T14:29:59" hostname="DESKTOP-01NI0FG" time="0.932">
+  <properties/>
+  <testcase name="contextLoads()" classname="dev.luuk.Web_Test.WebTestApplicationTests" time="0.932"/>
+  <system-out><![CDATA[17:29:57.084 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dev.luuk.Web_Test.WebTestApplicationTests]: WebTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:29:57.245 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dev.luuk.Web_Test.WebTestApplication for test class dev.luuk.Web_Test.WebTestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-10-16T17:29:57.883+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Starting WebTestApplicationTests using Java 17.0.6 with PID 12940 (started by Dell in C:\Users\Dell\Documents\Web_Test)
+2023-10-16T17:29:57.884+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-10-16T17:29:59.482+03:00  INFO 12940 --- [    Test worker] d.luuk.Web_Test.WebTestApplicationTests  : Started WebTestApplicationTests in 1.974 seconds (process running for 3.592)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
